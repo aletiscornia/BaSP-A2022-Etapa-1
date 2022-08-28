@@ -6,8 +6,8 @@ We try to imitate a [figma](https://www.figma.com/file/uUTondiju03ty4RzOxxTU6/UI
 
 ## How to download
 There are two ways to download the project:
-*Download it as a zip file.
-*Cloning the repository using this comand : git clone https://github.com/aletiscornia/BaSP-A2022-Etapa-1.git
+* Download it as a zip file.
+* Cloning the repository using this comand : git clone https://github.com/aletiscornia/BaSP-A2022-Etapa-1.git
 
 When you have the file just double click index.html.
 ### Week 02
