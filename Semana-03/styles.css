@@ -462,7 +462,7 @@ body {
 
 #table {
     
-    position: absolute;
+    /* position: absolute; */
     width: 300px;
     height: 267px;
     left: 10%;
@@ -519,10 +519,32 @@ body {
     clear:both;
  } */
 
-footer {
-    
-    margin-left: 26%;
+#footer {
+    position:absolute;
+    margin-left: 24%;
     padding:15px 16px;
     width: 100%;
-    background-color: aqua;
+    height: 100px;
+    top: 2600px;
+}
+
+#footer ul {
+    display: flex;
+    margin-left: 28%;
+}
+
+#footer p {
+    width: 609px;
+    height: 85px;
+    margin-left: 15%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #373867;
+
 }
