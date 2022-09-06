@@ -11,7 +11,7 @@
     <body>
         <header id="main-header">
             <p id="btn-burg">&#8801</p>
-            <input class="" type="text"> 
+            <input type="text"> 
             <img id="src-img" src="./assets/img/Button Search.svg" alt="search">
             
         </header>
@@ -20,23 +20,23 @@
                 <header id="nav-title" class="nav">
                     <h2> Menu </h2>
                 </header>
-                <ul class="nav">
+                <ul id="nav-ul" class="nav">
                     <li>Home</li>
                     <li>SingUp</li>
                     <li>Login</li>
                 </ul>
                 <h3> Contact </h3>
-                    <ul>
-                        <li>
-                            <img src="./assets/img/email.png" alt="mail-icon">
+                    <ul id="nav-contacto">
+                        <li class="contacto-mail">
+                            <img src="./assets/img/img1.svg" alt="mail-icon">
                             <a href="trackgenix@gmail.com">trackgenix@gmail.com</a>
                         </li>
-                        <li>
-                            <img src="./assets/img/phone.png" alt="phone-icon">
+                        <li class="contacto-phone">
+                            <img src="./assets/img/img2.svg" alt="phone-icon">
                             <a href="(+54) 4545-9999">(+54) 4545-9999</a>
                         </li>
-                        <li>
-                            <img src="./assets/img/home-icon.jpg" alt="home-icon">
+                        <li class="contacto-address">
+                            <img src="./assets/img/img3.svg" alt="home-icon">
                             <a href="1234 Somewhere Road #8254 Nashville">1234 Somewhere Road 
                              #8254 Nashville.</a>
                         </li>
@@ -97,14 +97,14 @@
                 <article>
                     <form id="form" action="">
                         <div id="name">
-                            <input type="text" placeholder="Name">
+                            <input id="name-i" type="text" placeholder="Name">
                         </div>
                         <div id="email">
-                            <input type="email" placeholder="Email">
+                            <input id="email-i" type="email" placeholder="Email">
                         </div>
                         <div>
                             <select id="category" name="Category">  
-                                <option value=""> Category   
+                                <option value=""> -Category-  
                                 <option value=""> Category 2  
                                 <option value=""> Category 3
                             </select>
@@ -166,7 +166,6 @@
                 </div>
             </section>
         </main>
-        <!-- <div class="Fix"></div> -->
         <footer id="footer">
             <ul>
                 <div id="div-tuit" class="block2">
