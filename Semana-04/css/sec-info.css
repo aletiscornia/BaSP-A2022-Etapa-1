@@ -1,7 +1,7 @@
 #sec-info header {
-    margin-left: 10%;
+    margin-left: 1.3%;
     padding: 5%;
-    font-style: normal;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -9,15 +9,47 @@
     color: #373867;
 }
 
-.form {
-    box-sizing: border-box;
-
+#art-form {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    padding-left: 5%;
+} 
 
-    align-items: flex-start;
+.form {
+    
     padding: 10px 12px;
-
     border: 1px solid #AACE9B;
     border-radius: 4px;
+}
+
+.form input ,select , textarea{
+    border: 0;
+}
+
+#div-btn {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+}
+
+#btn-cancel {
+    margin-top: 2%;
+    border: 1px solid #AACE9B;
+    border-radius: 5px;
+    padding: 10px 24px;
+    background: #FFFFFF;
+    color: #AACE9B;  
+}
+
+#btn-send {
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 1px solid #AACE9B;
+    border-radius: 5px;
+    padding: 10px 24px;
+    
+    background-color: #AACE9B;
+    color: #FFFFFF;
 }

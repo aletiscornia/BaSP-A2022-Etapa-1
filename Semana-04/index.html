@@ -110,10 +110,10 @@
                 <header>
                     <h3>Ask for more information</h3>
                 </header>
-                <article>
+                <article id="art-form">
                     <form action="">
                         <div class="form">
-                            <input type="text" placeholder="Name">
+                            <input  type="text" placeholder="Name">
                         </div>
                         <div class="form">
                             <input type="email" placeholder="Email">
@@ -125,12 +125,13 @@
                                 <option value=""> Category 2
                             </select>
                         </div>
-                        <div>
-                            <form action=""></form>
-                            <textarea name="" id="" cols="26" rows="5">Message</textarea>
+                        <div class="form">
+                            <textarea name="" id="" cols="26" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div id="div-btn">
+                            <button id="btn-cancel" type="submit">Cancel</button>
+                            <button id="btn-send"  type="submit">Send</button>
                         </div> 
-                        <button type="submit">Cancel</button>
-                        <button type="submit">Send</button>
                     </form>
                 </article>
             </section>
@@ -138,65 +139,77 @@
                 <header>
                     <h3>Our history</h3>
                 </header>
-                <article>
+                <article class="history-p">
+                    <p>
+                        GigaTech was created in 2012 by a trio of colleagues who met through a coding bootcamp. They continue
+                        to perfect the craft of app development and make a name for themselves. 
+                    </p>
                     <p>
                         Since 2012, we’ve helped countless companies across the globe build applications that empower growth, 
                         leave a lasting impression, and transform their user experience.GigaTech was created in 2012 by a trio
                         of colleagues who met through a coding bootcamp. They continue to perfect the craft of app development 
                         and make a name for themselves.
                     </p>
+                    <p>
+                        As the team grew from three to ten, and then from ten to twenty, they explored new partnerships with 
+                        major technologies to propel their growth. GigaTech currently has around 70 team members and exciting 
+                        growth goals ahead of them. 
+                    </p>
                     <img src="./assets/img/imgMainMidjpg.jpg" alt="people-talking">
                 </article>
-                <article>
-                    <p>GigaTech was created in 2012 by a trio of colleagues who met through a coding bootcamp. They continue
-                        to perfect the craft of app development and make a name for themselves.
-                        GigaTech was created in 2012 by a trio of colleagues who met through a coding bootcamp. They continue
-                        to perfect the craft of app development and make a name for themselves. 
-                    </p>
-                </article>
-                <p>PRODUCTS</p>
-                <ul>
-                    <li>Features</li>
-                    <li>Downloads</li>
-                    <li>Integrations</li>
-                    <li>Additionl features</li>
-                </ul>
-                <p>COMPANY</p>
-                <ul>
-                    <li>About us</li>
-                    <li>Trusted by Resources</li>
-                    <li>Clients</li>
-                </ul>
-                <p>SUPPORT</p>
-                <ul>
-                    <li>Help</li>
-                    <li>Tutorial</li>
-                    <li>API</li>
-                    <li>Contact</li>
-                </ul>
+                <div id="div-f">
+                    <div class="div-tab">
+                        <p>PRODUCTS</p>
+                        <ul>
+                            <li>Features</li>
+                            <li>Downloads</li>
+                            <li>Integrations</li>
+                            <li>Additionl features</li>
+                        </ul>
+                    </div>
+                    <div class="div-tab">
+                        <p>COMPANY</p>
+                        <ul>
+                            <li>About us</li>
+                            <li>Trusted by Resources</li>
+                            <li>Clients</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>SUPPORT</p>
+                        <ul>
+                            <li>Help</li>
+                            <li>Tutorial</li>
+                            <li>API</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </main>
         <footer id="footer">
-            <ul>
-                <li>
-                    <a href=""><img src="./assets/img/twit.svg" alt="twitter-icon"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/img/fb.svg" alt="facebook-icon"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/img/linke.svg" alt="linkedin-icon"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/img/insta.svg" alt="instagram-icon"></a>
-                </li>
-                <li>
-                    <a href=""><img src="./assets/img/github.svg" alt="github-icon"></a>
-                </li>
-            </ul>
-            <p>Rosario, Argentina
-                Copyright © 2022 Radium Rocket. All rights reserved.
-            </p>
+            <div id="div-footer">
+                <ul>
+                    <li>
+                        <a href=""><img src="./assets/img/twit.svg" alt="twitter-icon"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./assets/img/fb.svg" alt="facebook-icon"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./assets/img/linke.svg" alt="linkedin-icon"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./assets/img/insta.svg" alt="instagram-icon"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./assets/img/github.svg" alt="github-icon"></a>
+                    </li>
+                </ul>
+            </div>
+            <p>Rosario, Argentina</p>
+            <p>Copyright © 2022 Radium Rocket.</p> 
+            <p>All rights reserved.</p>
         </footer>   
     </body>
 </html>

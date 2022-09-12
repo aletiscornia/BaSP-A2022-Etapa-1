@@ -16,12 +16,9 @@ body {
     align-items: center;
 }
 
-#header img {
-    margin-left: 10px;
-}
+
 
 #header input {
-    margin-right: 120px;
     background: #FAFBFD url("../assets/img/Button\ Search.svg") no-repeat 5px center;
     background-size: 8px 8px;
     border: 1px solid #AACE9B;

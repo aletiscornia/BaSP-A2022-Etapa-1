@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 10%;
 }
 
 #sec-principal header {
-    padding-top: 50px;
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -14,7 +14,11 @@
     color: #373867;
 }
 
-article {
+#sec-principal button {
+    display: none;
+}
+
+.art-principal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +30,6 @@ article {
 }
 
 #subt {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -37,8 +40,6 @@ article {
 
 #parag {
     order: 1;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
