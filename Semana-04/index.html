@@ -7,17 +7,24 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/sidebar.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/sec-principal.css">
+        <link rel="stylesheet" href="./css/sec-features.css">
+        <link rel="stylesheet" href="./css/sec-why.css">
+        <link rel="stylesheet" href="./css/sec-info.css">
+        <link rel="stylesheet" href="./css/sec-history.css">
+        <link rel="stylesheet" href="./css/footer.css">
+
+        <title>Trackgenix</title>
     </head>
     <body>
-        <header>
-            <img src="./assets/img/burgerBtn.png" alt="menu">
-            <input type="text"> 
-            <img src="./assets/img/search.png" alt="search">
+        <header id="header" class="flex-container">
+            <img id="btn-burger" src="./assets/img/burgerbtn.svg" alt="menu">
+            <input type="search" id="query" name="q" placeholder="">
+            <div></div>
         </header>
         <aside>
-            <nav>
+            <nav id="navbar">
                 <header>
                     <h2> Menu </h2>
                 </header>
@@ -28,7 +35,7 @@
                 </ul>
             </nav>
             <div>
-                <section>
+                <section id="sec-contact">
                     <h3> Contact </h3>
                     <ul>
                         <li>
@@ -49,45 +56,47 @@
             </div>
         </aside>
         <main>
-            <section>
+            <section id="sec-principal">
                 <header>
                     <h1>TRACKGENIX</h1>
                 </header>
-                <article>
-                    <p>TIME CONTROL THAT SIMPLIFIES YOUR BUSINESS</p>
-                    <p>The time control software to manage your employees' time in the easiest, 
+                <article class="art-principal">
+                    <p id="subt">TIME CONTROL THAT SIMPLIFIES YOUR BUSINESS</p>
+                    <p id="parag">The time control software to manage your employees' time in the easiest, 
                         fastest and most intuitive way.
                     </p>
                     <button type="button"> LEARN MORE</button>
                     <img src="./assets/img/imgMain.jpg" alt="main-image">
                 </article>
             </section>
-            <section>
+            <section id="sec-features">
                 <header>
                     <h3>Features</h3>
-                </header> 
-                <article>
-                   <img src="./assets/img/hours.png" alt="hours-icon">
-                   <p>Hours log</p> 
-                </article>
-                <article>
-                    <img src="./assets/img/reports.png" alt="reports-icon">
-                    <p>Reports</p>
-                </article>
-                <article>
-                    <img src="./assets/img/reports.png" alt="resorce-icon">
-                    <p>Resource management</p>
-                </article>
-                <article>
-                    <img src="./assets/img/group.png" alt="role-icon">
-                    <p>Multiple Role</p>
-                </article>
+                </header>
+                <div  class="div-p">
+                    <div class="div-features">
+                        <img src="./assets/img/hours.png" alt="hours-icon">
+                        <p>Hours log</p>
+                    </div>
+                    <div class="div-features">
+                        <img src="./assets/img/reports.png" alt="reports-icon">
+                        <p>Reports</p>
+                    </div>                          
+                    <div class="div-features">
+                        <img src="./assets/img/searcht.png" alt="resorce-icon">
+                        <p>Resource management</p>
+                    </div>                              
+                    <div class="div-features">
+                        <img src="./assets/img/group.png" alt="role-icon">
+                        <p>Multiple Role</p>
+                    </div>
+                </div> 
             </section>
-            <section>
+            <section id="sec-why">
                 <header>
                     <h3>Why use Trackgenix?</h3>
                 </header>
-                <article>
+                <div id="div-why">
                     <img src="./assets/img/connectionLaptop.jpg" alt="conection-icon">
                     <ul>
                         <li>Productivity booster</li>
@@ -95,33 +104,25 @@
                         <li>Leadership and team management</li>
                         <li>Decisionmaking</li>
                     </ul>
-                </article>
+                </div>
             </section>
-            <section>
-                <header>
-                    FEATURES
-                </header>
-            </section>
-            <section>
+            <section id="sec-info">
                 <header>
                     <h3>Ask for more information</h3>
                 </header>
                 <article>
                     <form action="">
-                        <div>
-                            <label for="">Name</label>
+                        <div class="form">
                             <input type="text" placeholder="Name">
                         </div>
-                        <div>
-                            <label for="">Email</label>
+                        <div class="form">
                             <input type="email" placeholder="Email">
                         </div>
-                        <div>
-                            <label for="">Choose a category</label>
+                        <div class="form">
                             <select name="Category">  
+                                <option value=""> Category   
                                 <option value=""> Category 1  
-                                <option value=""> Category 2  
-                                <option value=""> Category 3
+                                <option value=""> Category 2
                             </select>
                         </div>
                         <div>
@@ -133,7 +134,7 @@
                     </form>
                 </article>
             </section>
-            <section>
+            <section id="sec-history">
                 <header>
                     <h3>Our history</h3>
                 </header>
@@ -152,7 +153,6 @@
                         GigaTech was created in 2012 by a trio of colleagues who met through a coding bootcamp. They continue
                         to perfect the craft of app development and make a name for themselves. 
                     </p>
-                        <img src="./assets/img/thinkingman.png" alt="man-thinking">
                 </article>
                 <p>PRODUCTS</p>
                 <ul>
@@ -176,7 +176,7 @@
                 </ul>
             </section>
         </main>
-        <footer>
+        <footer id="footer">
             <ul>
                 <li>
                     <a href=""><img src="./assets/img/twit.svg" alt="twitter-icon"></a>

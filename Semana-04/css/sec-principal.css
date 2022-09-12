@@ -1,0 +1,49 @@
+#sec-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sec-principal header {
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #373867;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.art-principal img {
+    width: 155px;
+    height: 144px;
+}
+
+#subt {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #AACE9B;
+    
+}
+
+#parag {
+    order: 1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #373867;
+
+}

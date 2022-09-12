@@ -1,0 +1,37 @@
+#sec-why header {
+    margin-left: 10%;
+    padding: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #373867; 
+}
+
+#div-why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-why img {
+    width: 130px;   
+    height: 95px;
+}
+
+#div-why ul{
+    margin-left:10% ;
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #373867;
+    list-style-image: url(../assets/img/Vector.svg);
+}
+
+#div-why ul li {
+    margin-left: 5%;
+    padding: 2%;
+}

@@ -1,0 +1,23 @@
+#sec-info header {
+    margin-left: 10%;
+    padding: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #373867;
+}
+
+.form {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 10px 12px;
+
+    border: 1px solid #AACE9B;
+    border-radius: 4px;
+}
