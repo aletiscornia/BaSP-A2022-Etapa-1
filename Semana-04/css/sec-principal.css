@@ -24,12 +24,8 @@
     align-items: center;
 }
 
-.art-principal img {
-    width: 155px;
-    height: 144px;
-}
-
 #subt {
+    text-align: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -44,7 +40,45 @@
     font-size: 12px;
     line-height: 14px;
     text-align: center;
-
+    
     color: #373867;
+    
+}
+
+.art-principal img {
+    width: 155px;
+    height: 144px;
+}
+
+@media (min-width: 391px) and (max-width: 834px) {
+    #sec-principal {
+        padding-top: 154px;
+    }
+    
+    #sec-principal header {
+        font-size: 68px;
+        line-height: 80px;
+    }
+
+    #subt {
+        text-align: center;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    #parag {
+       margin: 14px 60px;
+
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .art-principal img{
+        width: 196px;
+        height: 226px;
+        margin-top: 12px;
+    }
+
+
 
 }

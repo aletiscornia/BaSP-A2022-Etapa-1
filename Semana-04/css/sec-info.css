@@ -53,3 +53,18 @@
     background-color: #AACE9B;
     color: #FFFFFF;
 }
+
+@media (min-width: 391px) and (max-width: 834px){
+    #sec-info header {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .form {
+        width: 600px;
+    }
+
+    .form textarea {
+        width: 595px;
+    }
+}

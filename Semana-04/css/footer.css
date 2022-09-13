@@ -21,3 +21,17 @@
 
     color: #373867;
 }
+
+@media (min-width:391px) and (max-width: 834px) {
+    #div-footer img {
+        width: 29.55px;
+        height: 29px;
+        margin-top: 40px
+    }
+
+    #footer p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}

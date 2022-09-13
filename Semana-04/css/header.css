@@ -23,6 +23,25 @@ body {
     background-size: 8px 8px;
     border: 1px solid #AACE9B;
     border-radius: 10px;
+    width: 150px;
+    height: 15px;
 }
 
+@media (min-width: 391px) and (max-width: 834px) {
+    #header {
+        background-color: red;
+        height: 92px;
+    }
 
+    #header input{
+        width: 377px;
+        height: 36px;
+        background-size: 30px 25px;
+    }
+
+    #btn-burger {
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+    } 
+}
