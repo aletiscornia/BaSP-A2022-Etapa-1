@@ -1,7 +1,11 @@
-#navbar {
-    display: none;
+@media (max-width: 1511px){
+    aside {
+        display: none;
+    }   
+
 }
 
-#sec-contact {
-    display: none;
+aside {
+    padding-top: 10%;
+    position: fixed;
 }

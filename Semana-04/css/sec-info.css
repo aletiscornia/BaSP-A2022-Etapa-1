@@ -5,6 +5,8 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: underline #AACE9B !important;
+    text-underline-offset: 10px;
 
     color: #373867;
 }
@@ -54,7 +56,7 @@
     color: #FFFFFF;
 }
 
-@media (min-width: 391px) and (max-width: 834px){
+@media (min-width: 834px) {
     #sec-info header {
         font-size: 32px;
         line-height: 38px;

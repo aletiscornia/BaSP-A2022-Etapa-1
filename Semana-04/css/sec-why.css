@@ -5,6 +5,8 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: underline #AACE9B;
+    text-underline-offset: 10px;
 
     color: #373867; 
 }
@@ -39,11 +41,12 @@
     padding: 2%;
 }
 
-@media (min-width: 391px) and (max-width: 834px) {
+@media (min-width: 834px) {
     #sec-why header {
         font-size: 32px;
         line-height: 38px;  
     }
+
 
     .div-container {
         display: flex;

@@ -27,7 +27,7 @@ body {
     height: 15px;
 }
 
-@media (min-width: 391px) and (max-width: 834px) {
+@media (min-width: 834px)  {
     #header {
         background-color: red;
         height: 92px;
@@ -44,4 +44,27 @@ body {
         width: 30px;
         height: 30px;
     } 
+}
+
+@media (min-width: 1512px) {
+    #header {
+        justify-content: center;
+        background-color: blue;
+        height: 126px;
+    }
+
+    #header input {
+        width: 377px;
+        height: 36px;
+        background-size: 23px;
+        border-radius: 50px;
+    }
+
+    #btn-burger{
+        display: none;
+    }
+
+    #div-header {
+        display: none;
+    }
 }
