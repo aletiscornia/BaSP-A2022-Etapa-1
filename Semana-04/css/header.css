@@ -29,7 +29,6 @@ body {
 
 @media (min-width: 834px)  {
     #header {
-        background-color: red;
         height: 92px;
     }
 
@@ -49,7 +48,6 @@ body {
 @media (min-width: 1512px) {
     #header {
         justify-content: center;
-        background-color: blue;
         height: 126px;
     }
 
