@@ -4,8 +4,7 @@ and their hours worked into a database. This project is part of radiumrocket boo
 
 ## Week 02
 
-## Description
-We try to make a similar [web page](https://www.figma.com/file/uUTondiju03ty4RzOxxTU6/UI-kit-RR-(BaSP)-Bestia-A?node-id=721%3A652) using html.
+On the second week we try to make a similar [web page](https://www.figma.com/file/uUTondiju03ty4RzOxxTU6/UI-kit-RR-(BaSP)-Bestia-A?node-id=721%3A652) using html.
 
 ## How to download
 There are two ways to download the project:
@@ -16,7 +15,10 @@ When you have the file just double click index.html.
 
 ## Week 03
 
-## Description
 This week we decorate the html using css and we try to get the same result as the [figma](https://www.figma.com/file/uUTondiju03ty4RzOxxTU6/UI-kit-RR-(BaSP)-Bestia-A?node-id=721%3A652).
+
+## Week 04
+
+The weekly problem this week was to build a responsive website using flexbox knowledge and this was the [result](https://aletiscornia.github.io/BaSP-A2022-Etapa-1/Semana-04).
 
 _By Alejandro Tiscornia_
