@@ -11,7 +11,6 @@
 // A)
 var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", 
 "Octubre", "Noviembre", "Diciembre"];
-console.log(meses);
 console.log(meses[5-1]);
 console.log(meses[11-1]);
 
