@@ -16,33 +16,28 @@ body {
     align-items: center;
 }
 
-
-
-#header input {
-    background: #FAFBFD url("../assets/img/Button\ Search.svg") no-repeat 5px center;
-    background-size: 8px 8px;
-    border: 1px solid #AACE9B;
-    border-radius: 10px;
-    width: 150px;
-    height: 15px;
+#logo-header {
+    width: 117px;
+    height: 30px;
 }
+
+
 
 @media (min-width: 834px)  {
     #header {
         height: 92px;
     }
 
-    #header input{
-        width: 377px;
-        height: 36px;
-        background-size: 30px 25px;
-    }
-
     #btn-burger {
         margin-left: 20px;
         width: 30px;
         height: 30px;
-    } 
+    }
+    
+    #logo-header{
+        width: 300px;
+        height: 92px;
+    }
 }
 
 @media (min-width: 1512px) {
@@ -51,15 +46,13 @@ body {
         height: 126px;
     }
 
-    #header input {
-        width: 377px;
-        height: 36px;
-        background-size: 23px;
-        border-radius: 50px;
-    }
-
     #btn-burger{
         display: none;
+    }
+
+    #logo-header{
+        width: 485px;
+        height: 126px;
     }
 
     #div-header {

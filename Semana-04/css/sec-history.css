@@ -1,7 +1,6 @@
 #sec-history header {
     margin-left: 18px;
     padding: 20px;
-    
 
     font-weight: 700;
     font-size: 14px;
@@ -12,33 +11,34 @@
     color: #373867;
 }
 
-.history-p {
+#sec-history article{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+}
 
-    padding: 0 3%;
-    
+#sec-history article p {    
+    margin: 0px 30px;
+    width: 331px;
+    height:169px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;
+    text-align: justify;
 
     color: #373867;
 }
 
-.history-p img {
-    margin-top: 5%;
+#sec-history article img {
     align-self: center;
     width: 285px;
     height: 155px;
 }
+
 #div-f {
     display: flex;
     margin: 33px 17px ;
     justify-content: space-between;
-
 }
 
 #div-f p {
@@ -55,6 +55,7 @@
     flex-direction: column;
     margin-top : 2px;
     border-right: 1px solid #373867;
+    padding-right: 20px;
 }
 
 @media (min-width: 834px) {
@@ -63,30 +64,51 @@
         line-height: 38px
     }
 
-    .history-p {
-        text-align: center;
+    #sec-history article{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 648px;
+    }
+
+    #sec-history article p {
+        margin: 16px 40px;
+        width: 742px;
+        text-align: justify;
         font-size: 24px;
         line-height: 28px;
-        margin: 16px 45px;
     }
 
-    #history3 {
-        display: none;
-    }
-
-    .history-p img {
-        width: 318px;
-        height: 142px;
+    #sec-history article img {
+        margin-top: 0px;
+        width: 640px;
+        height: 251px;
     }
 
     #div-f {
-        margin:20px 200px ; 
+        display: flex;
+        justify-content: space-between;
+        margin:75px 100px; 
     }
 
     #div-f p {
         height: 20px;
         font-size: 24px;
         line-height: 28px;
+    }
+
+    .div-tab ul {
+        display: flex;
+        flex-direction: column;
+        margin-top : 1px;
+        border-right: 1px solid #373867;
+        padding-right: 120px;
+    }
+
+    #div-f ul li {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
     }
 }
 
@@ -95,49 +117,63 @@
         margin-left: 28px;
     }
 
-    .history-p {
+    #sec-history article {
         display: flex;
         flex-direction: column;  
         flex-wrap: wrap;
         align-items: center;
         height: 350px;
     }
-    
-    #history1 {
-        width: 50%;
-        
+    #sec-history article p {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        align-items: center;
+        font-size: 22px;
+        line-height: 25.78px;
     }
 
-    #history2 {
-        width: 50%;
-        margin-bottom: 5px;
-    }
-
-    .history-p img {
-        margin: 0;
+    #sec-history article img {
+        margin-right: 42px;
+        margin-top: 0px;
         width: 456px;
         height: 256px;
+    }
+
+    #div-f{
+        display: flex;
+        justify-content: space-between;
+        margin:100px 70px;
     }
 
     .div-tab {
         display: flex;
         flex-direction: column;
         height: 100px;
-        
     }
-    .div-tab p {
-        margin-bottom: 10px;
-
+    
+    #div-f p {
+        height: 20px;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .div-tab ul {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-
+        margin-top : 10px;
+        border-right: 1px solid #373867;
+        padding-right: 120px;
     }
 
-    .div-tab ul li {
-        
+    
+
+    #div-f ul li {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        font-size: 24px;
+        line-height: 28px;
     }
+    
 }
