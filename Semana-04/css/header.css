@@ -21,8 +21,6 @@ body {
     height: 30px;
 }
 
-
-
 @media (min-width: 834px)  {
     #header {
         height: 92px;

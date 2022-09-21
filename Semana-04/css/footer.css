@@ -4,13 +4,11 @@
     flex-wrap: wrap;
     padding-top: 13px;
     border-top: solid #AACE9B 3px;
-    
 }
 
 #div-footer ul{
     display: flex;
     justify-content: center;   
-    
 }
 
 #footer p {
@@ -37,7 +35,6 @@
     #footer-p {
         margin: 10px;
     }
-
 }
 
 @media (min-width: 1512px) {
@@ -48,5 +45,4 @@
     #footer {
         margin-left: 397px
     }
-
 }
