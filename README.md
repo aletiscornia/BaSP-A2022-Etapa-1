@@ -21,4 +21,8 @@ This week we decorate the html using css and we try to get the same result as th
 
 The weekly problem this week was to build a responsive website using flexbox knowledge and this was the [result](https://aletiscornia.github.io/BaSP-A2022-Etapa-1/Semana-04).
 
+## Week 05
+On our fifth bootcamp week, we learned the basics of JavaScript. The topics were: Expresiones y Operadores, flow control and error handling and loops and iterations.
+We do some practice so if you wanna see it, download the [Semana-05](https://github.com/aletiscornia/BaSP-A2022-Etapa-1/tree/master/Semana-04) folder.If you wanna run the exercises run the idex.html and press F12 on your browser.
+
 _By Alejandro Tiscornia_
