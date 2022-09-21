@@ -11,7 +11,7 @@
 // parámetros no es un número; de no ser un número, mostrar una alerta aclarando que uno 
 // de los parámetros tiene error y retornar el valor NaN como resultado.
 function esNumero(valor1, valor2){
-    if(isNaN(valor1) || isNaN(valor2) ){
+    if(typeof valor1 === 'number' || typeof valor2 === 'number'){
         alert('Uno de los parametros no es un numero')
         return NaN;
     }
@@ -28,11 +28,11 @@ function validaciónEntero(entero){
 // valide que los números sean enteros. En caso que haya decimales mostrar un alerta con el error 
 // y retornar el número convertido a entero (redondeado).
 function suma2(valor1, valor2){
-    if(isNaN(valor1) || isNaN(valor2) ){
+    if(typeof valor1 !== 'number' || typeof valor2 !== 'number'){
        alert('Uno de los parametros no es un numero');
        return NaN;
     }
-    if(validaciónEntero(valor1) === false ){
+    if(validaciónEntero(valor1) === false){
         alert('Uno de los valores no es entero');
         return Math.round(valor1);
     }
@@ -46,7 +46,7 @@ function suma2(valor1, valor2){
 // E) Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma 
 // probando que todo siga funcionando igual.
 function validacion(valor1, valor2){
-    if(isNaN(valor1) || isNaN(valor2) ){
+    if(typeof valor1 !== 'number' || typeof valor2 !== 'number'){
         alert('Uno de los parametros no es un numero');
         return NaN;
      }
