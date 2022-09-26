@@ -10,7 +10,7 @@
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding-top: 10%;
+        padding-top: 100px;
         position: fixed;
         width: 397px;
         border-right: 2px solid #BFBFBF;
@@ -43,7 +43,7 @@
     }
     
     #sec-contact h3 {
-        margin: 55px 43px;
+        margin: 35px 43px;
         text-decoration: underline #AACE9B;
         text-underline-offset: 10px;
         
