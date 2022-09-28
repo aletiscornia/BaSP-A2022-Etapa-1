@@ -25,4 +25,7 @@ The weekly problem this week was to build a responsive website using flexbox kno
 On our fifth bootcamp week, we learned the basics of JavaScript. The topics were: Expresiones y Operadores, flow control and error handling and loops and iterations.
 We do some practice so if you wanna see it, download the [Semana-05](https://github.com/aletiscornia/BaSP-A2022-Etapa-1/tree/master/Semana-04) folder.If you wanna run the exercises run the idex.html and press F12 on your browser.
 
+## Week 06
+The objective of this week was to apply the knowledge learned in the previous weeks to be able to create the Login and Sign-up pages using html, css and javascript.To check out the page click [here](https://aletiscornia.github.io/BaSP-A2022-Etapa-1/Semana-06/views/login.html).
+
 _By Alejandro Tiscornia_
