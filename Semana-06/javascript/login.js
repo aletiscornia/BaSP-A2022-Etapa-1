@@ -11,8 +11,8 @@ window.onload = function() {
 
     //Email validation
     mail.onblur = function () {
-        pass.classList.remove("error-red");
-        pass.classList.remove("ok-green");
+        mail.classList.remove("error-red");
+        mail.classList.remove("ok-green");
         if (!(emailExpression.test(mail.value)))  {	
             mail.classList.add("error-red");
             mailCheck = false;
@@ -50,7 +50,6 @@ window.onload = function() {
             passCheck = true;
         }else{
             pass.classList.add("error-red");
-            alert("Invalid password");
         }
     }
 
