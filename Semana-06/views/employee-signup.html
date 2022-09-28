@@ -18,56 +18,92 @@
         <div id="div-header"></div>
     </header>
     <main>
+        <aside>
+            <nav id="navbar">
+                <header>
+                    <h2> Menu </h2>
+                </header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="employee-signup.html">Sign-up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <div>
+                <section id="sec-contact">
+                    <h3> Contact </h3>
+                    <ul>
+                        <li>
+                            <img src="../assets/img/carta-mail.svg" alt="mail-icon">
+                            <a href="trackgenix@gmail.com">trackgenix@gmail.com</a>
+                        </li>
+                        <li>
+                            <img src="../assets/img/telefono.svg" alt="phone-icon">
+                            <a href="(+54) 4545-9999">(+54) 4545-9999</a>
+                        </li>
+                        <li>
+                            <img src="../assets/img/casa.svg" alt="home-icon">
+                            <a href="1234 Somewhere Road #8254 Nashville">1234 Somewhere Road 
+                            #8254 Nashville.</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </aside>
         <div class="container">
             <h2>
                 SingUp
             </h2>
             <form id="form" action="">
-                <div class="data">
-                    <label for="name">Name</label>
-                    <input id="name" type="text" placeholder="Name">
+                <div class="fila1">
+                    <div class="data">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Name">
+                    </div>
+                    <div class="data">
+                        <label for="apellido">Apellido</label>
+                        <input id="apellido" type="text" placeholder="Apellido">
+                    </div>
+                    <div class="data">
+                        <label for="dni">DNI</label>
+                        <input id="dni" type="text" placeholder="DNI">
+                    </div>
+                    <div class="data">
+                        <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+                        <input id="fecha-nacimiento" type="date" placeholder="Fecha de Nacimiento">
+                    </div>
+                    <div class="data">
+                        <label for="tel">Telefono</label>
+                        <input id="tel" type="text" placeholder="Telefono">
+                    </div>
+                    <div class="data">
+                        <label for="">Direccion</label>
+                        <input id="direc" type="text" placeholder="Direccion">
+                    </div>
                 </div>
-                <div class="data">
-                    <label for="apellido">Apellido</label>
-                    <input id="apellido" type="text" placeholder="Apellido">
+                <div class="fila2">
+                    <div class="data">
+                        <label for="">Localidad</label>
+                        <input id="localidad" type="text" placeholder="Localidad">
+                    </div>
+                    <div class="data">
+                        <label for="">Codigo Postal</label>
+                        <input id="cp" type="text" placeholder="Codigo Postal">
+                    </div>
+                    <div class="data">
+                        <label for="">Email</label>
+                        <input id="mail" type="text" placeholder="Email">
+                    </div>
+                    <div class="data">
+                        <label for="">Contraseña</label>
+                        <input id="pass" type="password" placeholder="Contraseña">
+                    </div>
+                    <div class="data">
+                        <label for="">Repetir Contraseña</label>
+                        <input id="pass2" type="password" placeholder="Repetir Contraseña">
+                    </div>
                 </div>
-                <div class="data">
-                    <label for="dni">DNI</label>
-                    <input id="dni" type="text" placeholder="DNI">
-                </div>
-                <div class="data">
-                    <label for="fecha-nacimiento">Fecha de Nacimiento</label>
-                    <input id="fecha-nacimiento" type="text" placeholder="Fecha de Nacimiento">
-                </div>
-                <div class="data">
-                    <label for="tel">Telefono</label>
-                    <input id="tel" type="text" placeholder="Telefono">
-                </div>
-                <div class="data">
-                    <label id="direc" for="">Direccion</label>
-                    <input id="direc" type="text" placeholder="Direccion">
-                </div>
-                <div class="data">
-                    <label id="localidad" for="">Localidad</label>
-                    <input id="localidad" type="text" placeholder="Localidad">
-                </div>
-                <div class="data">
-                    <label id="cp" for="">Codigo Postal</label>
-                    <input id="cp" type="text" placeholder="Codigo Postal">
-                </div>
-                <div class="data">
-                    <label id="mail" for="">Email</label>
-                    <input id="mail" type="text" placeholder="Email">
-                </div>
-                <div class="data">
-                    <label id="pass" for="">Contraseña</label>
-                    <input id="pass" type="text" placeholder="Contraseña">
-                </div>
-                <div class="data">
-                    <label id="pass2" for="">Repetir Contraseña</label>
-                    <input id="pass2" type="text" placeholder="Repetir Contraseña">
-                </div>
-                <button id="submit-btn" type="submit">SingUp</button>
+                <button id="submit-btn" type="submit">Create</button>
             </form>
         </div>
         <footer id="footer">
