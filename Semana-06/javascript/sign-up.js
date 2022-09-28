@@ -1,5 +1,6 @@
 window.onload = function () {
-    var inputs = document.getElementsByTagName("input")
+    
+    var inputs = document.getElementsByTagName("input");
     var name = document.getElementById("name");
     var surname = document.getElementById("apellido");
     var dni = document.getElementById("dni");
@@ -50,12 +51,11 @@ window.onload = function () {
             name.classList.add("ok-green");
         }else{
             name.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            name.parentNode.insertBefore(p,  name.nextSibling);
         }
-    }
-
-    name.onfocus = function () {
-        name.classList.remove("error-red", "ok-green");
-        name.removeAttribute("placeholder");
     }
 
     //Surname validation
@@ -66,6 +66,10 @@ window.onload = function () {
             surname.classList.add("ok-green");
         }else{
             surname.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            surname.parentNode.insertBefore(p,  surname.nextSibling);
         }
     }
 
@@ -104,6 +108,10 @@ window.onload = function () {
             dni.classList.add("ok-green");
         }else{
             dni.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            dni.parentNode.insertBefore(p,  dni.nextSibling);
         }
     }
 
@@ -127,6 +135,10 @@ window.onload = function () {
                 fecNac.classList.add("ok-green");
             }else{
                 fecNac.classList.add("error-red");
+                var p = document.createElement("p");
+                p.classList.add("error");
+                p.innerHTML = "Invalid input";
+                fecNac.parentNode.insertBefore(p,  fecNac.nextSibling);
             }
         
         fecNac.focus = function () {
@@ -143,7 +155,11 @@ window.onload = function () {
             tel.classList.add("ok-green");
         }else{
             tel.classList.add("error-red");
-            console.log("You have to enter 9 numbers");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            tel.parentNode.insertBefore(p,  tel.nextSibling);
+
         }
     }
 
@@ -162,21 +178,17 @@ window.onload = function () {
             var position = dirNoSpace.charCodeAt(i);
             if(position >= 48 && position <= 57){
                 number = true;
-                console.log(number)
             }
             else if(position >= 97 && position <= 122){
                letraaaa = true;
-               console.log(letraaaa);
             }else{
-                console.log(dirNoSpace);
-                return false
+                return false;
             }
         }
         if(number && letraaaa){
-            console.log('es alfanum')
-            return true
+            return true;
         }else{
-            console.log('no es alfa')
+            return false;
         }
     }
 
@@ -207,6 +219,10 @@ window.onload = function () {
             dir.classList.add("ok-green");
         }else{
             dir.classList.add('error-red');
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            dir.parentNode.insertBefore(p,  dir.nextSibling);
         }
     }
 
@@ -223,6 +239,10 @@ window.onload = function () {
             local.classList.add("ok-green");
         }else{
             local.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            local.parentNode.insertBefore(p,  local.nextSibling);
         }
     }
 
@@ -247,6 +267,10 @@ window.onload = function () {
             cP.classList.add("ok-green");
         }else{
             cP.classList.add('error-red');
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            cP.parentNode.insertBefore(p,  cP.nextSibling);
         }
     }
 
@@ -273,6 +297,10 @@ window.onload = function () {
             mail.classList.add("ok-green");
         }else{
             mail.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            mail.parentNode.insertBefore(p,  mail.nextSibling);
         }
        
     }
@@ -317,6 +345,10 @@ window.onload = function () {
             pass.classList.add("ok-green");
         }else{
             pass.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            pass.parentNode.insertBefore(p,  pass.nextSibling);
         }
     }
 
@@ -340,6 +372,10 @@ window.onload = function () {
             pass2.classList.add("ok-green");
         }else{
             pass2.classList.add("error-red");
+            var p = document.createElement("p");
+            p.classList.add("error");
+            p.innerHTML = "Invalid input";
+            pass2.parentNode.insertBefore(p,  pass2.nextSibling);
         }
     }
 

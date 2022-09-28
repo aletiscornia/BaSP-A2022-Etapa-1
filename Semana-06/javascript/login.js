@@ -25,8 +25,13 @@ window.onload = function() {
         }
     }
     
-    mail.focus = function () {
+    mail.onfocus = function () {
+        if(mail.classList.contains("error-red")){
+            mail.value = "";
+        }
         mail.classList.remove("error-red", "ok-green");
+        mail.removeAttribute("placeholder");
+        
     }
 
     //Password validation 
@@ -53,22 +58,27 @@ window.onload = function() {
         }
     }
 
-    pass.focus = function () {
+    pass.onfocus = function () {
+        if(pass.classList.contains("error-red")){
+            pass.value = "";
+        }
         pass.classList.remove("error-red", "ok-green")
+        pass.removeAttribute("placeholder")
     }
     
     
     btn.onclick = function (e) {
         e.preventDefault();
-        if(mailCheck && passCheck){
-            alert("Login successfull");
-            alert("Mail: " +mail.value+" Pass: "+pass.value)
-        }else{
+        if(pass.classList.contains("error-red") || mail.classList.contains("error-red")){
             if(!mailCheck){
                 alert("Incorrect mail "+mail.value);
             }else{
                 alert("Incorrect password "+pass.value);
             }
+            
+        }else{
+            alert("Login successfull");
+            alert("Mail: " +mail.value+" Pass: "+pass.value)
         }
     }
     
