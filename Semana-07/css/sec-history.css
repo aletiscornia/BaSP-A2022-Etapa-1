@@ -1,0 +1,179 @@
+#sec-history header {
+    margin-left: 18px;
+    padding: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline #AACE9B !important;
+    text-underline-offset: 10px;
+
+    color: #373867;
+}
+
+#sec-history article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sec-history article p {    
+    margin: 0px 30px;
+    width: 331px;
+    height:169px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+
+    color: #373867;
+}
+
+#sec-history article img {
+    align-self: center;
+    width: 285px;
+    height: 155px;
+}
+
+#div-f {
+    display: flex;
+    margin: 33px 17px ;
+    justify-content: space-between;
+}
+
+#div-f p {
+    margin-bottom: 3px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 1px;
+    
+    color: #373867;
+}
+
+.div-tab ul {
+    display: flex;
+    flex-direction: column;
+    margin-top : 2px;
+    border-right: 1px solid #373867;
+    padding-right: 20px;
+}
+
+@media (min-width: 834px) {
+    #sec-history header {
+        font-size: 32px;
+        line-height: 38px
+    }
+
+    #sec-history article{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 648px;
+    }
+
+    #sec-history article p {
+        margin: 16px 40px;
+        width: 742px;
+        text-align: justify;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    #sec-history article img {
+        margin-top: 0px;
+        width: 640px;
+        height: 251px;
+    }
+
+    #div-f {
+        display: flex;
+        justify-content: space-between;
+        margin:75px 100px; 
+    }
+
+    #div-f p {
+        height: 20px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .div-tab ul {
+        display: flex;
+        flex-direction: column;
+        margin-top : 1px;
+        border-right: 1px solid #373867;
+        padding-right: 120px;
+    }
+
+    #div-f ul li {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+}
+
+@media (min-width: 1512px) {
+    #sec-history header {
+        margin-left: 28px;
+    }
+
+    #sec-history article {
+        display: flex;
+        flex-direction: column;  
+        flex-wrap: wrap;
+        align-items: center;
+        height: 350px;
+    }
+    #sec-history article p {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        align-items: center;
+        font-size: 22px;
+        line-height: 25.78px;
+    }
+
+    #sec-history article img {
+        margin-right: 42px;
+        margin-top: 0px;
+        width: 456px;
+        height: 256px;
+    }
+
+    #div-f{
+        display: flex;
+        justify-content: space-between;
+        margin:100px 70px;
+    }
+
+    .div-tab {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    
+    #div-f p {
+        height: 20px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .div-tab ul {
+        display: flex;
+        flex-direction: column;
+        margin-top : 10px;
+        border-right: 1px solid #373867;
+        padding-right: 120px;
+    }
+
+    
+
+    #div-f ul li {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+}
