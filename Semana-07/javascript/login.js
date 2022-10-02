@@ -77,6 +77,22 @@ window.onload = function() {
             }
             
         }else{
+            var url = 'https://basp-m2022-api-rest-server.herokuapp.com/login?email='+mail.value+'&password='
+            +pass.value;
+            var respuesta = fetch(url);
+            respuesta.then(function(res){
+                return res.json();
+            })
+            .then(function(data){1
+                if(data.success){
+                    alert("La solicitud se realizo con exito " + data.msg);
+                }else{
+                    alert("Hubo un error "+data.msg); 
+                }
+            })
+            .catch(function(error){
+                console.log('error: ', error);
+            })
             alert("Login successfull");
             alert("Mail: " +mail.value+" Pass: "+pass.value)
         }
