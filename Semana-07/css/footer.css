@@ -37,7 +37,7 @@
     }
 }
 
-@media (min-width: 1512px) {
+@media (min-width: 1024px) {
     #div-footer img {
         filter: invert(41%) sepia(0%) saturate(0%) hue-rotate(155deg) brightness(98%) contrast(92%);
     }

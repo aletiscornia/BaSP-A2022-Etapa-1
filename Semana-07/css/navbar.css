@@ -4,7 +4,7 @@
     }
 }
 
-@media (min-width: 1512px) {
+@media (min-width: 1024px) {
     
     aside {
         display: flex;

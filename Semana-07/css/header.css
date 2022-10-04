@@ -38,7 +38,7 @@ body {
     }
 }
 
-@media (min-width: 1512px) {
+@media (min-width: 1024px) {
     #header {
         justify-content: center;
         height: 126px;

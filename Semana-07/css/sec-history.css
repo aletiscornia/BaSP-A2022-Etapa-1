@@ -112,7 +112,7 @@
     }
 }
 
-@media (min-width: 1512px) {
+@media (min-width: 1024px) {
     #sec-history header {
         margin-left: 28px;
     }

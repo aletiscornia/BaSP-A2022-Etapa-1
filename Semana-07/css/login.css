@@ -74,7 +74,7 @@ main {
     margin-top: 260px;
 }
 
-@media (min-width: 1512px) {
+@media (min-width: 1024px) {
     main {
         padding-top: 1px;
     }
