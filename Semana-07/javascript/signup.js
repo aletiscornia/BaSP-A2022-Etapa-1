@@ -51,8 +51,17 @@ window.onload = function () {
             name.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only letters min 3";
             name.parentNode.insertBefore(p,  name.nextSibling);
+        }
+    }
+
+    name.onfocus = function () {
+        name.classList.remove("error-red", "ok-green");
+        name.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
         }
     }
 
@@ -66,7 +75,7 @@ window.onload = function () {
             surname.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only letters min 3";
             surname.parentNode.insertBefore(p,  surname.nextSibling);
         }
     }
@@ -74,6 +83,10 @@ window.onload = function () {
     surname.onfocus = function () {
         surname.classList.remove("error-red", "ok-green");
         surname.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
 
     //DNI validation
@@ -108,7 +121,7 @@ window.onload = function () {
             dni.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only numbers min 7";
             dni.parentNode.insertBefore(p,  dni.nextSibling);
         }
     }
@@ -116,6 +129,10 @@ window.onload = function () {
     dni.onfocus = function () {
         dni.classList.remove("error-red", "ok-green");
         dni.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //Fecha Nacimiento validation
@@ -134,13 +151,17 @@ window.onload = function () {
             fecNac.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Input required";
             fecNac.parentNode.insertBefore(p,  fecNac.nextSibling);
         }
         
         fecNac.focus = function () {
             fecNac.classList.remove("error-red", "ok-green");
             fecNac.removeAttribute("placeholder");
+            var children = document.getElementById("name").parentElement.children;
+            if(children [children.length -1].classList.contains("error") ){
+                children[children.length -1].remove();
+            }
         }
     }
     
@@ -154,7 +175,7 @@ window.onload = function () {
             tel.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only numbers min 10";
             tel.parentNode.insertBefore(p,  tel.nextSibling);
             
         }
@@ -163,6 +184,10 @@ window.onload = function () {
     tel.onfocus = function () {
         tel.classList.remove("error-red", "ok-green");
         tel.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //Dir validation
@@ -216,7 +241,7 @@ window.onload = function () {
             dir.classList.add('error-red');
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only letters, numbers and 1 space";
             dir.parentNode.insertBefore(p,  dir.nextSibling);
         }
     }
@@ -224,6 +249,10 @@ window.onload = function () {
     dir.onfocus = function () {
         dir.classList.remove("error-red", "ok-green");
         dir.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //Localidad validation
@@ -236,7 +265,7 @@ window.onload = function () {
             local.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "(Min 3 letters an 1 number)";
             local.parentNode.insertBefore(p,  local.nextSibling);
         }
     }
@@ -244,6 +273,10 @@ window.onload = function () {
     local.onfocus = function () {
         local.classList.remove("error-red", "ok-green");
         local.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //CP validation
@@ -264,7 +297,7 @@ window.onload = function () {
             cP.classList.add('error-red');
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only number (min 4 ,max 5)";
             cP.parentNode.insertBefore(p,  cP.nextSibling);
         }
     }
@@ -272,6 +305,10 @@ window.onload = function () {
     cP.onfocus = function () {
         cP.classList.remove("error-red", "ok-green");
         cP.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //Email validation
@@ -293,7 +330,7 @@ window.onload = function () {
             mail.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Input required, invalid mail";
             mail.parentNode.insertBefore(p,  mail.nextSibling);
         }
         
@@ -302,6 +339,10 @@ window.onload = function () {
     mail.onfocus = function () {
         mail.classList.remove("error-red", "ok-green");
         mail.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //Password validation
@@ -340,7 +381,7 @@ window.onload = function () {
             pass.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Only(1number, 1upperCase, 1Lowercase) and minimun 7 digit";
             pass.parentNode.insertBefore(p,  pass.nextSibling);
         }
     }
@@ -348,6 +389,10 @@ window.onload = function () {
     pass.onfocus = function () {
         pass.classList.remove("error-red", "ok-green")
         pass.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     //Repeat password validation
@@ -368,7 +413,7 @@ window.onload = function () {
             pass2.classList.add("error-red");
             var p = document.createElement("p");
             p.classList.add("error");
-            p.innerHTML = "Invalid input";
+            p.innerHTML = "Password doesn't match";
             pass2.parentNode.insertBefore(p,  pass2.nextSibling);
         }
     }
@@ -376,6 +421,10 @@ window.onload = function () {
     pass2.onfocus = function () {
         pass2.classList.remove("error-red", "ok-green")
         pass2.removeAttribute("placeholder");
+        var children = document.getElementById("name").parentElement.children;
+        if(children [children.length -1].classList.contains("error") ){
+            children[children.length -1].remove();
+        }
     }
     
     function saveLocal(){
