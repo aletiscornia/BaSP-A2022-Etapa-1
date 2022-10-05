@@ -1,5 +1,4 @@
 window.onload = function () {
-    
     var inputs = document.getElementsByTagName("input");
     var name = document.getElementById("name");
     var surname = document.getElementById("apellido");
@@ -379,11 +378,41 @@ window.onload = function () {
         pass2.removeAttribute("placeholder");
     }
     
+    function saveLocal(){
+        localStorage.setItem("name", name.value);
+        localStorage.setItem("surname", surname.value);
+        localStorage.setItem("dni", dni.value);
+        localStorage.setItem("fecNac", fecNac.value);
+        localStorage.setItem("tel", tel.value);
+        localStorage.setItem("dir", dir.value);
+        localStorage.setItem("local", local.value);
+        localStorage.setItem("cP", cP.value);
+        localStorage.setItem("mail", mail.value);
+        localStorage.setItem("pass", pass.value);
+        localStorage.setItem("pass2", pass2.value)
+    }
+
+    function getLocal(){
+        name.value = localStorage.getItem("name");
+        surname.value = localStorage.getItem("surname");
+        dni.value = localStorage.getItem("dni");
+        fecNac.value = localStorage.getItem("fecNac");
+        tel.value = localStorage.getItem("tel");
+        dir.value =  localStorage.getItem("dir");
+        local.value = localStorage.getItem("local");
+        cP.value = localStorage.getItem("cP");
+        mail.value = localStorage.getItem("mail");
+        pass.value =  localStorage.getItem("pass");
+        pass2.value = localStorage.getItem("pass2");
+    }
+    
+    getLocal();
+    
     //Button validation
     btn.onclick = function (e) {
         e.preventDefault();
         for(var i = 0; i < inputs.length - 1; i++){
-            if(inputs[i].classList.contains("ok-green")){
+            if(!inputs[i].classList.contains("error-red")){
                 var mensaje = ('nombre: '+name.value+", apellido: "+surname.value+", dni: "+dni.value+
                 ", Fecha de Nacimiento: "+fecNac.value+", telefon: "+tel.value+", direccion: "+dir.value+
                 ", localidad: "+local.value+", codigo postal: "+cP.value+", mail: "+mail.value+", contraseña: "
@@ -408,12 +437,13 @@ window.onload = function () {
         .then(function(data){1
             if(data.success){
                 alert("La solicitud se realizo con exito " + data.msg);
+                saveLocal();
             }else{
-                alert('Error: ' +data.errors[0]['msg']);
+                alert('Hubo un error: ' +data.errors[0]['msg']);
             }
         })
         .catch(function(error){
             alert('error: ', error);
         })
-    }
+    }   
 }
