@@ -28,4 +28,7 @@ We do some practice so if you wanna see it, download the [Semana-05](https://git
 ## Week 06
 The objective of this week was to apply the knowledge learned in the previous weeks to be able to create the Login and Sign-up pages using html, css and javascript.To check out the page click [here](https://aletiscornia.github.io/BaSP-A2022-Etapa-1/Semana-06/views/login.html).
 
+## Week 07
+This week we add an api and manage the responses from it to improve what we did in previous weeks.
+
 _By Alejandro Tiscornia_
